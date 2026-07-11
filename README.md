@@ -9,6 +9,7 @@ Tiny Neural Network 하드웨어 가속기 설계 (Verilog) Tiny Neural Network(
 
 # 🚀 프로젝트 개요
 최종적으로 구현된 TNN 가속기는 아래와 같은 구조를 가집니다. 외부 메모리에 저장된 입력 데이터(X)와 가중치(W1, W2)를 읽어와 두 개의 완전 연결 계층(Fully Connected Layer), 정규화(Normalization), ReLU 활성화 함수 연산을 순차적으로 수행하고, 최종 결과를 다시 메모리에 저장합니다.
+
 <img width="1224" height="226" alt="image" src="https://github.com/user-attachments/assets/695bbcd9-be7a-491d-b5b1-f2a71919e9db" />
 
 # 특징
